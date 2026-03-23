@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --black: #000814ff;
+    --secondary-color: #001d3dff;
+    --main-color: #003566ff;
+    --hover: #ffc300ff;
+    --gold: #ffd60aff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans";
+    font-weight: 400;
+}
+html{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
 ul{
     list-style: none;
 }
@@ -6,6 +28,9 @@ a{
 }
 a:hover{
     text-decoration: none;
+}
+.sale{
+     width: 1000px; height: 500px;
 }
 .main-menu{
     display: flex;
