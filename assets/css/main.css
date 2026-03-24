@@ -40,7 +40,7 @@ a:hover{
 }
 .main-menu{
     display: flex;
-    gap: 30px;
+    gap: 15px;
 }
 .logo{
     width: 200px;
