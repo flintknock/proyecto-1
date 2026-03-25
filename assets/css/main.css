@@ -42,6 +42,9 @@ a:hover{
     display: flex;
     gap: 15px;
 }
+.main-menu li a{
+    color: var(--white);
+}
 .logo{
     width: 200px;
 }
