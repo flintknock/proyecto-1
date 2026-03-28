@@ -16,6 +16,9 @@ body{
 html{
     box-sizing: border-box;
 }
+*,*:before,*:after{
+    box-sizing: inherit;
+}
 header{
     background-color: var(--secondary-color);
     color: var(--white);
@@ -23,31 +26,77 @@ header{
     justify-content: space-between;
     padding: 5px 30px;
 }
-header li a{
-    vertical-align: text-bottom;
-}
-ul{
-    list-style: none;
-}
+
+
 a{
     text-decoration: none;
 }
 a:hover{
     text-decoration: none;
 }
-.sale{
-     width: 1000px; height: 500px;
+/*Header*/
+ul{
+    list-style: none;
 }
 .main-menu{
-    display: flex;
-    gap: 15px;
+    display: inline-flex;
+    gap: 25px;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
 }
 .main-menu li a{
     color: var(--white);
+
 }
 .logo{
     width: 200px;
 }
+/*Sale banner*/
+.sale{
+    display: block; 
+    width: 1000px; height: 500px; 
+    margin: auto;
+}
+/*Categorias*/
 .img-fluid{
     clip-path: circle(50%);
+}
+.container2{
+    display: flex;
+    background-color: var(--main-color);
+}
+.container2 div{
+    background-color: var(--main-color);
+    margin: 15px;
+    padding: 50px;
+    font-size: large;
+}
+.container2 div p{
+    color: var(--white);
+    text-align: center;
+}
+h2{
+    color: var(--white);
+}
+/*Games*/
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--main-color);
+    padding: 15px;
+}
+.container div{
+    background-color: var(--secondary-color);
+    border: 1px black;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+}
+.container div p{
+    color: var(--white);
+}
+.img-games{
+    width: 300px;
+    height: 400px;
 }
