@@ -45,6 +45,8 @@ ul{
 }
 .main-menu li a{
     color: var(--white);
+    font-family: "Noto Sans";
+    font-weight: 400;
 }
 .main-menu li a:hover{
     color: var(--hover);
@@ -112,5 +114,38 @@ h2{
 .img-games:hover{
     width: 300px;
     height: 400px;
+}
+
+/*footer*/
+.container-fluid{
+    width: 100%;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+    background-color: var(--main-color);
+}
+.logo-footer{
+    width: 300px;
+}
+.footer ul li{
+    color: var(--white);
+}
+.footer ul li a:hover{
+    color: var(--hover);
+}
+.footer h3{
+    color: var(--white);
+    padding-left: 40px;
+    text-size-adjust: 20px;
+}
+.social-iconos a{
+    color: var(--gold);
+    font-size: 1.5rem;
+    padding-left: 35px;
+}
+.social-iconos a:hover{
+    color: var(--hover);
 }
 
