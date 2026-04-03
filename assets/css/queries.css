@@ -3,4 +3,24 @@
     width: 100%;
     height: 400px;
 }
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0;
+}
+}
+
+@media (min-width: 1024px){
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+}
+.container-fluid{
+    width: 100%;
+}
+.mapa{
+    width: 100%;
+    height: 400px;
+}
 }

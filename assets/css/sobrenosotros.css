@@ -1,0 +1,61 @@
+.mapa{
+    width: 100%;
+    height: auto;
+}
+.title{
+    color: var(--main-color);
+}
+.contacto{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0;
+}
+/*.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+}*/
+label{
+    width: 100%;
+    margin-top: 10px;
+}
+input[type="text"][type="tel"]{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+select{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 15px;
+    border-radius: 13px;
+    border: none; /* elimina el borde por defecto de los botones*/
+    cursor: pointer; /*Mejora la experiencia de usuario (UXs)*/
+    font-weight: 600;
+}
+input[type="submit"]:hover{
+    color: var(--hover);
+}
+textarea{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.contacto .col{
+    padding: 30px;
+}
+

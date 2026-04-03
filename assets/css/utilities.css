@@ -35,3 +35,9 @@ a:hover{
 ul{
     list-style: none;
 }
+.center{
+    text-align: center;
+}
+.container-fluid{
+    width: 100%;
+}
