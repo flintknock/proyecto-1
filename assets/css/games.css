@@ -1,0 +1,31 @@
+/*Games*/
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--main-color);
+    padding: 15px;
+}
+
+.container div{
+    background-color: var(--secondary-color);
+    border: 1px black;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+}
+.container div p{
+    color: var(--white);
+}
+.img-games{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition-property: width, height;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.img-games:hover{
+    width: 300px;
+    height: 400px;
+}

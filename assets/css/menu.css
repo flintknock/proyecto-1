@@ -1,0 +1,19 @@
+/*Header*/
+.main-menu{
+    display: inline-flex;
+    gap: 25px;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-menu li a{
+    color: var(--white);
+    font-family: "Noto Sans";
+    font-weight: 400;
+}
+.main-menu li a:hover{
+    color: var(--hover);
+}
+.logo{
+    width: 200px;
+}
