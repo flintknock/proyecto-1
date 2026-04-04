@@ -10,11 +10,6 @@
     flex-direction: column-reverse;
     margin-top: 0;
 }
-/*.contacto{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 0;
-}*/
 label{
     width: 100%;
     margin-top: 10px;
@@ -58,4 +53,3 @@ textarea{
 .contacto .col{
     padding: 30px;
 }
-

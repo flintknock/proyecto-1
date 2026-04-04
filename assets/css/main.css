@@ -1,4 +1,3 @@
-@import url(queries.css);
 @import url(utilities.css);
 @import url(menu.css);
 @import url(salebanner.css);
@@ -6,7 +5,7 @@
 @import url(games.css);
 @import url(footer.css);
 @import url(sobrenosotros.css);
-
+@import url(queries.css);
 
 
 
