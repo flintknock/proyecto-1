@@ -5,7 +5,6 @@
     background-color: var(--main-color);
     padding: 15px;
 }
-
 .container div{
     background-color: var(--secondary-color);
     border: 1px black;
@@ -28,4 +27,38 @@
 .img-games:hover{
     width: 300px;
     height: 400px;
+}
+.onegame-page{
+    background-color: var(--main-color);
+    border: 1px black;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+}
+.onegame-page div{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: var(--secondary-color);
+    padding: 15px;
+    justify-content: center;
+}
+.onegame-page div p{
+    color: var(--white);
+}
+.twogames{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: var(--main-color);
+    border: 1px black;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+}
+.twogames div{
+    background-color: var(--secondary-color);
+    padding: 15px;
+    justify-content: center;
+}
+.twogames div p{
+    color: var(--white);
 }

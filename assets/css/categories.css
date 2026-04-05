@@ -3,7 +3,7 @@
 .img-fluid{
     width: 110px;
     height: 110px;
-    clip-path: circle(50%);
+    border-radius: 90%;
 }
 .container2{
     display: flex;
