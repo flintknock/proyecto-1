@@ -2,5 +2,8 @@
 .sale{
     display: block; 
     width: 1000px; height: 500px; 
-    margin: auto;
+    margin: auto;   
+}
+.salebg{
+    background-color: var(--main-color);
 }

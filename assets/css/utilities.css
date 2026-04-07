@@ -2,7 +2,7 @@
 :root{
     --black: #000814ff;
     --secondary-color: #001d3dff;
-    --main-color: #003566ff;
+    --main-color: #003566;
     --hover: #ffc300ff;
     --gold: #ffd60aff;
     --white: #ffffff;
@@ -25,6 +25,9 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 5px 30px;
+}
+footer{
+    background-color: var(--secondary-color);
 }
 a{
     text-decoration: none;
