@@ -4,6 +4,8 @@
     width: 110px;
     height: 110px;
     border-radius: 90%;
+    border-style: inset;
+    border-color: #1888f1 rgb(0, 11, 61) rgb(141, 137, 137) rgb(251, 255, 0);
 }
 .container2{
     display: flex;
