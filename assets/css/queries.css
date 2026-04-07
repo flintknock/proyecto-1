@@ -31,13 +31,15 @@
     text-align: center;
 }
 .img-fluid{
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     border-radius: 90%;
     border-style: inset;
     border-color: #1888f1 rgb(0, 11, 61) rgb(141, 137, 137) rgb(251, 255, 0);
     justify-content: center;
     
+}
+
 }
 
 
@@ -52,6 +54,45 @@
 }*/
 .mapa{
     width: 100%;
+    height: 400px;
+}
+.sale{
+    display: block; 
+    width: 1000px; height: 500px; 
+    margin: auto;   
+}
+.img-fluid{
+    width: 110px;
+    height: 110px;
+    border-radius: 90%;
+    border-style: inset;
+    border-color: #1888f1 rgb(0, 11, 61) rgb(141, 137, 137) rgb(251, 255, 0);
+}
+.container2{
+    display: flex;
+    background-color: var(--main-color);
+}
+.container2 div{
+    background-color: var(--main-color);
+    margin: 15px;
+    padding: 50px;
+    font-size: large;
+}
+.container2 div p{
+    color: var(--white);
+    text-align: center;
+}
+.img-games{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition-property: width, height;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.img-games:hover{
+    width: 300px;
     height: 400px;
 }
 }
