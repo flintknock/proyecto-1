@@ -39,6 +39,15 @@
     justify-content: center;
     
 }
+.img-games{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition-property: width, height;
+    transition-duration: none;
+    transition-timing-function: none;
+    transition-delay: none;
+}
 
 }
 
