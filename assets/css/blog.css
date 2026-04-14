@@ -12,3 +12,25 @@
 .blog h2{
     font-size: 21px;
 }
+.blog-header h1{
+    color: white;
+    background-color: var(--secondary-color);
+    text-align: center;
+    margin-top: 30px;
+
+}
+.main-article{
+    max-width: 800px; 
+    margin: 2rem auto; 
+    padding: 2rem;
+    line-height: 1.6; 
+    background:#fff; 
+    border-radius:8px; 
+    box-shadow:0 2px 10px rgba(0,0,0,.06);
+}
+.main-article p{
+    margin-bottom: 0.5em;
+}
+.blog-background{
+    background-color: var(--secondary-color);
+}
