@@ -1,6 +1,6 @@
 .blog{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-direction: column;
     gap: 40px;
     padding: 40px;
 }
@@ -30,6 +30,10 @@
 }
 .main-article p{
     margin-bottom: 0.5em;
+}
+.main-article table{
+    border: 2px solid black;
+    
 }
 .blog-background{
     background-color: var(--secondary-color);
