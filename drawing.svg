@@ -25,15 +25,21 @@
      inkscape:document-units="px"
      inkscape:zoom="0.65260417"
      inkscape:cx="982.98483"
-     inkscape:cy="258.19633"
-     inkscape:window-width="1829"
-     inkscape:window-height="961"
+     inkscape:cy="1729.2258"
+     inkscape:window-width="1745"
+     inkscape:window-height="915"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
+    <rect
+       x="542.44214"
+       y="294.2059"
+       width="1175.2913"
+       height="200.73424"
+       id="rect15" />
     <rect
        x="1170.6943"
        y="640.51074"
@@ -73,46 +79,46 @@
        id="rect7"
        width="182.34637"
        height="79.680763"
-       x="33.711094"
-       y="45.969673" />
+       x="855.03589"
+       y="50.566639" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.49972;stroke-opacity:1"
        id="rect9"
        width="161.92645"
        height="63.857826"
-       x="1117.3129"
-       y="58.478115" />
+       x="23.234661"
+       y="56.945793" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.28465;stroke-opacity:1"
        id="rect10"
        width="189.72334"
        height="59.475922"
-       x="1304.1488"
-       y="61.435219" />
+       x="207.00595"
+       y="58.370575" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.38775;stroke-opacity:1"
        id="rect11"
        width="168.16771"
        height="62.437466"
-       x="1518.7255"
-       y="53.825165" />
+       x="449.16443"
+       y="55.357487" />
     <rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.51445;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.3343;stroke-opacity:1"
        id="rect12"
-       width="181.83192"
-       height="50.052193"
-       x="1701.1351"
-       y="64.614769" />
+       width="140.63937"
+       height="50.232342"
+       x="642.21027"
+       y="56.863083" />
     <text
        xml:space="preserve"
        style="writing-mode:lr-tb;direction:ltr;white-space:pre;inline-size:37.7613;fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
        x="116.4565"
        y="85.810059"
        id="text12"
-       transform="matrix(4.2500875,0,0,3.6219922,-442.10981,-203.78485)"><tspan
+       transform="matrix(4.2500875,0,0,3.6219922,379.21501,-199.18788)"><tspan
          x="116.4565"
          y="85.810059"
-         id="tspan10">LOGO</tspan></text>
+         id="tspan1">LOGO</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18.6667px;writing-mode:lr-tb;direction:ltr;white-space:pre;inline-size:0;fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
@@ -125,153 +131,136 @@
     <text
        xml:space="preserve"
        style="font-size:31.7767px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.70232;stroke-opacity:1"
-       x="1978.6897"
-       y="85.378044"
+       x="705.62866"
+       y="82.736885"
        id="text14"
        transform="scale(0.8618148,1.1603421)"><tspan
          sodipodi:role="line"
          id="tspan14"
-         x="1978.6897"
-         y="85.378044"
+         x="705.62866"
+         y="82.736885"
          style="stroke-width:1.70232">Sobre Nosotrs</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:26.1849px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.40276;stroke-opacity:1"
-       x="1518.1145"
-       y="95.539116"
+       x="459.14728"
+       y="92.44381"
        id="text16"
        transform="scale(1.0100039,0.99009519)"><tspan
          sodipodi:role="line"
          id="tspan16"
-         x="1518.1145"
-         y="95.539116"
+         x="459.14728"
+         y="92.44381"
          style="stroke-width:1.40276">PlayStation</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:43.3963px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.3248;stroke-opacity:1"
-       x="1627.8442"
-       y="93.248848"
+       x="305.45523"
+       y="90.706215"
        id="text17"
        transform="scale(0.82966725,1.2053025)"><tspan
          sodipodi:role="line"
          id="tspan17"
-         x="1627.8442"
-         y="93.248848"
+         x="305.45523"
+         y="90.706215"
          style="stroke-width:2.3248">XBOX</tspan></text>
-    <rect
-       style="fill:none;stroke:#000000"
-       id="rect2"
-       width="375.41901"
-       height="58.228252"
-       x="234.44533"
-       y="59.760574" />
-    <text
-       xml:space="preserve"
-       style="font-size:18.6667px;writing-mode:lr-tb;direction:ltr;white-space:pre;inline-size:91.6053;fill:#000000;fill-opacity:1;stroke:#000000"
-       x="275.81805"
-       y="96.536308"
-       id="text2"
-       transform="matrix(2.6183205,0,0,2.9033111,-432.72841,-169.64926)"><tspan
-         x="275.81805"
-         y="96.536308"
-         id="tspan11">nombre</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:34.2134px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.83285"
-       x="1307.5643"
-       y="93.751541"
+       x="45.218765"
+       y="92.423477"
        id="text3"
        transform="scale(0.86670262,1.1537983)"><tspan
          sodipodi:role="line"
          id="tspan3"
-         x="1307.5643"
-         y="93.751541"
+         x="45.218765"
+         y="92.423477"
          style="stroke-width:1.83285">Nintendo</tspan></text>
     <rect
-       style="fill:none;fill-opacity:1;stroke:#000000"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.17722"
        id="rect3"
-       width="1582.889"
-       height="297.27054"
-       x="139.44135"
-       y="222.18675" />
+       width="1582.7118"
+       height="412.01749"
+       x="139.52995"
+       y="222.27536" />
     <text
        xml:space="preserve"
        style="font-size:148.097px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:7.93374"
-       x="508.0834"
-       y="472.53494"
+       x="324.94034"
+       y="537.0484"
        id="text4"
        transform="scale(1.1378854,0.87882312)"><tspan
          sodipodi:role="line"
          id="tspan4"
-         x="508.0834"
-         y="472.53494"
-         style="stroke-width:7.93374">OFERTAS</tspan></text>
+         x="324.94034"
+         y="537.0484"
+         style="stroke-width:7.93374">Nuevos Jogos</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.16671"
        id="rect4"
        width="1591.9163"
        height="264.92508"
-       x="142.58934"
-       y="545.59015" />
+       x="136.46005"
+       y="680.43451" />
     <text
        xml:space="preserve"
        style="font-size:39.8644px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.13559"
-       x="181.49478"
-       y="530.6283"
+       x="174.68985"
+       y="652.08435"
        id="text5"
        transform="scale(0.90071273,1.1102319)"><tspan
          sodipodi:role="line"
          id="tspan5"
-         x="181.49478"
-         y="530.6283"
+         x="174.68985"
+         y="652.08435"
          style="fill:#000000;fill-opacity:1;stroke-width:2.13559">Generos</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:39.9146px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.13828"
-       x="205.37318"
-       y="767.83826"
+       x="199.27574"
+       y="903.38684"
        id="text6"
        transform="scale(1.0052222,0.99480493)"><tspan
          sodipodi:role="line"
          id="tspan6"
-         x="205.37318"
-         y="767.83826"
+         x="199.27574"
+         y="903.38684"
          style="stroke-width:2.13828">accion</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:37.8776px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.02915"
-       x="508.30966"
-       y="690.49213"
+       x="501.46094"
+       y="811.17163"
        id="text7"
-       transform="scale(0.89495388,1.117376)"><tspan
+       transform="scale(0.89495389,1.117376)"><tspan
          sodipodi:role="line"
          id="tspan7"
-         x="508.30966"
-         y="690.49213"
+         x="501.46094"
+         y="811.17163"
          style="stroke-width:2.02915">aventura</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:48.1604px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.58002"
-       x="964.29761"
-       y="625.91077"
+       x="956.67163"
+       y="734.29034"
        id="text8"
-       transform="scale(0.80373826,1.2441861)"><tspan
+       transform="scale(0.80373827,1.2441861)"><tspan
          sodipodi:role="line"
          id="tspan8"
-         x="964.29761"
-         y="625.91077"
+         x="956.67163"
+         y="734.29034"
          style="stroke-width:2.58002">carreras</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:42.9188px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.29922"
-       x="1194.2949"
-       y="670.72955"
+       x="1187.1903"
+       y="787.0625"
        id="text9"
-       transform="scale(0.86271982,1.1591249)"><tspan
+       transform="scale(0.86271981,1.1591249)"><tspan
          sodipodi:role="line"
          id="tspan9"
-         x="1194.2949"
-         y="670.72955"
+         x="1187.1903"
+         y="787.0625"
          style="stroke-width:2.29922">ritmo</tspan></text>
     <text
        xml:space="preserve"
@@ -280,66 +269,66 @@
     <text
        xml:space="preserve"
        style="font-size:38.7955px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.07833"
-       x="1653.423"
-       y="598.7912"
+       x="1645.4446"
+       y="702.38373"
        id="text18"
-       transform="scale(0.76823772,1.3016804)"><tspan
+       transform="scale(0.76823773,1.3016804)"><tspan
          sodipodi:role="line"
          id="tspan18"
-         x="1653.423"
-         y="598.7912"
+         x="1645.4446"
+         y="702.38373"
          style="stroke-width:2.07833">estrategia</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:35.5127px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.90246"
-       x="1417.9928"
-       y="816.47449"
+       x="1412.2821"
+       y="961.20245"
        id="text19"
-       transform="scale(1.0732964,0.9317091)"><tspan
+       transform="scale(1.0732964,0.93170909)"><tspan
          sodipodi:role="line"
          id="tspan19"
-         x="1417.9928"
-         y="816.47449"
+         x="1412.2821"
+         y="961.20245"
          style="stroke-width:1.90246">pelea</tspan></text>
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.66468"
        id="path19"
-       cx="275.05191"
-       cy="653.53552"
+       cx="268.92261"
+       cy="788.37988"
        r="51.000462" />
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.85028"
        id="path20"
-       cx="539.3775"
-       cy="665.02795"
+       cx="533.24823"
+       cy="799.87231"
        rx="50.141502"
        ry="56.270794" />
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.90262"
        id="path21"
-       cx="850.43896"
-       cy="673.45569"
+       cx="844.30969"
+       cy="808.30005"
        rx="53.179974"
        ry="44.752201" />
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.05629"
        id="path22"
-       cx="1066.4963"
-       cy="657.36633"
+       cx="1060.3671"
+       cy="792.21069"
        rx="46.973846"
        ry="39.312237" />
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.37354"
        id="path23"
-       cx="1333.8866"
-       cy="653.53552"
+       cx="1327.7573"
+       cy="788.37988"
        rx="46.549068"
        ry="48.081387" />
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.89759"
        id="path24"
-       cx="1566.0334"
-       cy="655.83398"
+       cx="1559.9042"
+       cy="790.67834"
        rx="48.585522"
        ry="50.117844" />
     <rect
@@ -352,14 +341,14 @@
     <text
        xml:space="preserve"
        style="font-size:42.7347px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.28936"
-       x="861.11157"
-       y="50.181187"
+       x="859.58716"
+       y="44.020069"
        id="text24"
-       transform="scale(1.0051926,0.9948342)"><tspan
+       transform="scale(1.0051926,0.99483421)"><tspan
          sodipodi:role="line"
          id="tspan24"
-         x="861.11157"
-         y="50.181187"
+         x="859.58716"
+         y="44.020069"
          style="stroke-width:2.28936">HEADER</tspan></text>
     <text
        xml:space="preserve"
@@ -378,22 +367,22 @@
        id="rect25"
        width="334.0463"
        height="465.82602"
-       x="171.62012"
-       y="897.94092" />
+       x="167.02315"
+       y="968.42773" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000"
        id="rect26"
        width="373.88666"
        height="461.22903"
-       x="756.96729"
-       y="928.5874" />
+       x="760.03192"
+       y="968.4278" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000"
        id="rect27"
        width="370.82202"
        height="484.2139"
-       x="1432.7214"
-       y="896.40863" />
+       x="1434.2538"
+       y="979.15405" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000"
        id="rect28"
@@ -556,14 +545,14 @@
     <text
        xml:space="preserve"
        style="font-size:75.5956px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4.04976"
-       x="2586.9875"
-       y="744.74329"
+       x="2507.2524"
+       y="738.14697"
        id="text45"
-       transform="scale(0.61496589,1.6261064)"><tspan
+       transform="scale(0.6149659,1.6261064)"><tspan
          sodipodi:role="line"
          id="tspan45"
-         x="2586.9875"
-         y="744.74329"
+         x="2507.2524"
+         y="738.14697"
          style="stroke-width:4.04976">BOX ART</tspan></text>
     <text
        xml:space="preserve"
@@ -601,5 +590,47 @@
          x="243.47083"
          y="1361.1156"
          style="stroke-width:3.28279">PRICE</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.49972;stroke-opacity:1"
+       id="rect2"
+       width="161.92645"
+       height="63.857826"
+       x="329.6991"
+       y="56.945797" />
+    <text
+       xml:space="preserve"
+       style="font-size:34.2134px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.83285"
+       x="448.32068"
+       y="85.783134"
+       id="text2"
+       transform="scale(0.86670262,1.1537983)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="448.32068"
+         y="85.783134"
+         style="stroke-width:1.83285">Blog</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000"
+       id="rect5"
+       width="709.46527"
+       height="76.616119"
+       x="1164.5651"
+       y="50.566639" />
+    <text
+       xml:space="preserve"
+       style="font-size:49.0303px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.62662;stroke-opacity:1"
+       x="1286.215"
+       y="111.55148"
+       id="text11"
+       transform="scale(1.0170977,0.98318973)"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         x="1286.215"
+         y="111.55148"
+         style="stroke-width:2.62662">Barra de Busqueda</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text15"
+       style="fill:none;text-orientation:auto;stroke:#000000;font-size:18.66666667px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect15)" />
   </g>
 </svg>
