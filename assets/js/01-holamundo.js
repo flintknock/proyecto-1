@@ -14,9 +14,15 @@ console.log(`La suma de ${num1} mas ${num2} es igual a ${suma}`);
 //otra manera
 console.log(`La suma de ${num1} mas ${num2} es igual a ${num1+num2}`);
 
-
+//variables let y var si les puedo reasignar un nuevo valor
 let ciudad="caracas"; //inicializar una variable
+console.log(ciudad);
+ciudad = "san juan";
 console.log(ciudad);
 
 var ciudad2="maracay";
 console.log(ciudad2);
+
+const pi = 3.14; //no puedo reasignarle su valor
+console.log(pi);
+
