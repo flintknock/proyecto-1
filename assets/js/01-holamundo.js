@@ -13,6 +13,9 @@ console.log("La suma de " + num1 + " mas " + num2 + " es igual a " + suma);
 console.log(`La suma de ${num1} mas ${num2} es igual a ${suma}`);
 //otra manera
 console.log(`La suma de ${num1} mas ${num2} es igual a ${num1+num2}`);
+console.log(`La resta de ${num1} menos ${num2} es igual a ${num1-num2}`);
+console.log(`La multiplicacion de ${num1} por ${num2} es igual a ${num1*num2}`);
+console.log(`La division de ${num1} entre ${num2} es igual a ${num1/num2}`);
 
 //variables let y var si les puedo reasignar un nuevo valor
 let ciudad="caracas"; //inicializar una variable
