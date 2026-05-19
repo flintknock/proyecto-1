@@ -12,7 +12,7 @@ function porConsola(n1, n2){
     console.log(`La division es ${n1 / n2}`);
     console.log(`***********************`);
 }
-porConsola(15,35)
+//porConsola(15,35)
 
 let suma ="";
 let multi ="";
@@ -32,4 +32,16 @@ function porPantalla(n1, n2){
     resta += `la resta de dos numeros es: ${n1 - n2}`;
     document.getElementById("resta").innerHTML = resta;
 }
-porPantalla(60,15)
+//porPantalla(60,15)
+
+function calculadora(n1,n2, mostrar = false){
+    //confunto de instrucciones que va a ejecutar esa funcion
+
+    if (mostrar == false) {
+        porConsola(n1,n2);
+    } else {
+        porPantalla(n1,n2);
+    }
+    return true;
+}
+calculadora(20,67,true);
