@@ -25,6 +25,7 @@ const curso = {
 //console.log(`La modalidad es presencial (${presencial})`);
 
 
+
 const telefono = {
     marca: "Samsung",
     modelo: "Galaxy S26 Ultra",
@@ -82,3 +83,29 @@ console.log(`La bateria tiene una cantidad de ${miliamperios} miliamperios`);
 console.log(`Tiene 5G? = ${cincog}`);
 console.log(`Soporta SIM? = ${sim}`);
 console.log(`Soporta eSIM? = ${esim}`);
+
+const medicos = {
+    nombre: "Juan",
+    apellido: "Martinez",
+    informacionpers:{
+    telefono: 412-8792561,
+    email: "drjuanmartinez@gmail.com",
+    direccion: "Av. Los Cedros, Girardot, Jose Casanova Godoy, Maracay, Edo. Aragua, Venezuela",
+    identificacion:{
+    cedula: 24506897,
+    IDcolegio: 11111111,
+    },
+    salud:{
+    tiposangre: "B+",
+    alergias: "Ninguna",
+    }
+    },
+    especialidad: "Medico General",
+    graduadoU: "Universidad Nacional Experimetnal Rómulo Gallegos",
+    pago:{
+    numerocuenta: 1055678910111213145,
+    banco: "Banco de Venezuela"
+    },
+}
+
+const {nombre, apellido, informacionpers, informacionpers:{telefono, email, direccion, identificacion, identificacion:{cedula, IDcolegio},salud, salud:{tiposangre, alergias}}, especialidad, graduadoU, pago, pago:{numerocuenta, banco}}=medicos
