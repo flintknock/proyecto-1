@@ -12,12 +12,12 @@ var gatzujs = JSON.parse(localStorage.getItem("gatzu"));
 console.log(gatzujs);
 
 function gatzujugar() {
-    let MinGatEne = Math.max(0, gatzujs.energia -=20)
-    
+    let MinGatEne = Math.max(0, gatzujs.energia - 20)
+
     if (gatzujs.energia == 0) {
         console.log(`Gatzu no tiene energia para jugar`);
     } else if (gatzujs.energia >=1) {
-        localStorage.setItem(gatzujs.energia, MinGatEne )
+        localStorage.setItem(gatzujs.energia, MinGatEne)
     }
 }
 
@@ -40,7 +40,7 @@ function gatzudormir() {
 
 
 console.log((gatzujs.energia));
-console.log(gatzujugar());
+
 
 
 
