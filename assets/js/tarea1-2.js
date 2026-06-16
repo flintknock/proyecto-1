@@ -1,34 +1,29 @@
-//Comprender cómo los métodos internos de un objeto pueden modificar sus propias propiedades usando la palabra clave this.
-//Estructura de Datos: Crea un objeto literal llamado mascota que represente a un gato tuxedo llamado "Gatzu".
 
-var gatzu = {
-    nombre: "Gatzu",
-    energia: 100,
-    hambre: 0,
-};
-localStorage.setItem("gatzu", JSON.stringify(gatzu));
+const NotaMinima = 10;
 
-var gatzuS = JSON.parse(localStorage.getItem("gatzu"));
 
-function gatzujugar(play) {
-    if (localStorage.getItem(gatzuS.energia) == 0) {
-        console.log(`Gatzu no tiene energia para jugar`);
-    } else {
-        localStorage.getItem(gatzuS.energia) >=20
-        localStorage.setItem(gatzuS.energia, gatzuS.energia-=20)
-    }
+
+const expedienteAcademico = {
+    estudiante1: {
+        nombre: "Miguel",
+        carrera: "Diseño Grafico",
+        calificaciones: [4, 18, 5, 8, 20]
+    },
+    obtenerPromedio() {
+        const notas = this.estudiante1.calificaciones
+        const sumaCalificaciones = notas.reduce((acc, val) => acc + val, 0);
+        return sumaCalificaciones / notas.length;
+    },
+    estaAprobado() {
+      return this.obtenerPromedio() >= NotaMinima;
+    },
 }
 
-function gatzucomer(eat) {
-    let hambreASubs = 30
-    if (localStorage.getItem(gatzuS.hambre) ==0) {
-        console.log(`Gatzu no tiene hambre`);
-    } else {
-        localStorage.getItem(gatzuS.hambre)
-    }
-}
+const promedio = expedienteAcademico.obtenerPromedio();
+const aprobado = expedienteAcademico.estaAprobado();
 
-console.log(gatzuS);
+console.log(promedio);
+console.log(aprobado);
 
 
 

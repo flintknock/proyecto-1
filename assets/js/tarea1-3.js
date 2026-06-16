@@ -1,42 +1,53 @@
-//paredes
-let largoPard = parseInt(prompt("Introduzca el largo de la Pared (en Metros)",));
-let altoPard = parseInt(prompt("Introduzca el alto de la Pared (en Metros)",));
+//Comprender cómo los métodos internos de un objeto pueden modificar sus propias propiedades usando la palabra clave this.
+//Estructura de Datos: Crea un objeto literal llamado mascota que represente a un gato tuxedo llamado "Gatzu".
+"use strict";
+var gatzu = {
+    nombre: "Gatzu",
+    energia: 100,
+    hambre: 0,
+};
+    localStorage.setItem("gatzu", JSON.stringify(gatzu));
 
-const areaPard = largoPard*altoPard
+var gatzujs = JSON.parse(localStorage.getItem("gatzu"));
+console.log(gatzujs);
 
-let bloques = 12.5;
-let sacoCemento = 1;
-let arena = 0.03;
+function gatzujugar() {
+    let MinGatEne = Math.max(0, gatzujs.energia -=20)
+    
+    if (gatzujs.energia == 0) {
+        console.log(`Gatzu no tiene energia para jugar`);
+    } else if (gatzujs.energia >=1) {
+        localStorage.setItem(gatzujs.energia, MinGatEne )
+    }
+}
 
-const bloquesT = Math.ceil(bloques*areaPard)
-var areaPardS = areaPard/3
-const sacosT = Math.ceil(sacoCemento*areaPardS)
-const arenaT = Math.ceil(arena*areaPard)
+function gatzucomer() {
+    let hambreASubs = 30
+    let HamVal = parseInt(localStorage.getItem(gatzuStorage.hambre))
+    let hambreSG = Math.max(0, HamVal - hambreASubs)
+    
+    if (HamVal==0) {
+        console.log(`Gatzu no tiene hambre`);
+    } else if (HamVal>=1) {
+        localStorage.setItem("hambre", hambreSG)
+    }
+}
 
-
-console.log(`Segun los datos administrados, se necesitan ${bloquesT} bloques, ${sacosT} sacos de cemento, y ${arenaT} metros cubicos de arena`);
-
-
-
-
-
-
-
-//ceramica
-//let largoHab = parseInt(prompt("Introduzca el largo de la habitacion (en Metros)",));
-//let anchoHab = parseInt(prompt("Introduzca el ancho de la habitacion (en Metros)",));
-//let largoCer = parseInt(prompt("Introduzca el largo de la baldoza de Ceramica (en Centimetros)",));
-//let anchoCer = parseInt(prompt("Introduzca el largo de la baldoza de Ceramica (en Centimetros)",));
+function gatzudormir() {
+    let energAct = parseInt(localStorage.getItem("energia")) 
+}
 
 
 
-const areaHab = largoHab*anchoHab
-const largoCerM = largoCer/100
-const anchoCerM = anchoCer/100
+console.log((gatzujs.energia));
+console.log(gatzujugar());
 
-const areaCerInd = largoCerM*anchoCerM
-const CantNetBald = areaHab/areaCerInd
 
-var TotalPiezas = Math.ceil(CantNetBald*1.1)
 
-console.log(`La cantidad de piezas de ceramica necesarias para la obra son ${TotalPiezas}`);
+
+
+console.log();
+
+
+
+

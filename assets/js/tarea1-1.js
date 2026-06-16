@@ -1,27 +1,41 @@
+//paredes
+let largoPard = parseInt(prompt("Introduzca el largo de la Pared (en Metros)",));
+let altoPard = parseInt(prompt("Introduzca el alto de la Pared (en Metros)",));
 
-const NotaMinima = 10;
+const areaPard = largoPard*altoPard
 
-const expedienteAcademico = {
-    estudiante1: {
-        nombre: "Miguel",
-        carrera: "Diseño Grafico",
-        calificaciones: [14, 18, 10, 9, 20]
-    },
-    obtenerPromedio() {
-        const notas = this.estudiante1.calificaciones
-        const sumaCalificaciones = notas.reduce((acc, val) => acc + val, 0);
-        return sumaCalificaciones / notas.length;
-    },
-    estaAprobado() {
-      return this.obtenerPromedio() >= NotaMinima;
-    },
-}
+let bloques = 12.5;
+let sacoCemento = 1;
+let arena = 0.03;
 
-const promedio = expedienteAcademico.obtenerPromedio();
-const aprobado = expedienteAcademico.estaAprobado();
+const bloquesT = Math.ceil(bloques*areaPard)
+var areaPardS = areaPard/3
+const sacosT = Math.ceil(sacoCemento*areaPardS)
+const arenaT = arena*areaPard
 
-console.log(promedio);
-console.log(aprobado);
+console.log(`Segun los datos administrados, se necesitan ${bloquesT} bloques, ${sacosT} sacos de cemento, y ${arenaT} metros cubicos de arena`);
 
 
 
+
+
+
+
+//ceramica
+let largoHab = parseInt(prompt("Introduzca el largo de la habitacion (en Metros)",));
+let anchoHab = parseInt(prompt("Introduzca el ancho de la habitacion (en Metros)",));
+let largoCer = parseInt(prompt("Introduzca el largo de la baldoza de Ceramica (en Centimetros)",));
+let anchoCer = parseInt(prompt("Introduzca el ancho de la baldoza de Ceramica (en Centimetros)",));
+
+
+
+const areaHab = largoHab*anchoHab
+const largoCerM = largoCer/100
+const anchoCerM = anchoCer/100
+
+const areaCerInd = largoCerM*anchoCerM
+const CantNetBald = areaHab/areaCerInd
+
+var TotalPiezas = Math.ceil(CantNetBald*1.1)
+
+console.log(`La cantidad de piezas de ceramica necesarias para la obra son ${TotalPiezas}`);
