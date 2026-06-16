@@ -1,45 +1,34 @@
 //Comprender cómo los métodos internos de un objeto pueden modificar sus propias propiedades usando la palabra clave this.
 //Estructura de Datos: Crea un objeto literal llamado mascota que represente a un gato tuxedo llamado "Gatzu".
 
-const gatzu = {
+var gatzu = {
     nombre: "Gatzu",
     energia: 100,
     hambre: 0,
-    
-    jugar() {
-        let energia = this.energia;
-        let hambre = this.hambre;
-        energia -= 20;
-        hambre += 15;
-        localStorage.setItem(energia, energia -= 20)
-    },
-    comer() {
-        let hambre = this.hambre;
-        if (hambre=0) {
-        hambre=0
-        } if(hambre>0) {
-        hambre-30
-        }
-    },
-    dormir() {
-        let hambre = this.hambre
-        let energia = this.energia
-        energia=100
-        hambre+10
-    },
-    estado() {
-        
-    }
 };
-
-
 localStorage.setItem("gatzu", JSON.stringify(gatzu));
-var gatstorage = JSON.parse(localStorage.getItem(gatzu))
 
-const jugar = gatzu.jugar();
-const comer = gatzu.comer();
-const dormir = gatzu.dormir();
-const estado = gatzu.estado();
+var gatzuS = JSON.parse(localStorage.getItem("gatzu"));
+
+function gatzujugar(play) {
+    if (localStorage.getItem(gatzuS.energia) == 0) {
+        console.log(`Gatzu no tiene energia para jugar`);
+    } else {
+        localStorage.getItem(gatzuS.energia) >=20
+        localStorage.setItem(gatzuS.energia, gatzuS.energia-=20)
+    }
+}
+
+function gatzucomer(eat) {
+    let hambreASubs = 30
+    if (localStorage.getItem(gatzuS.hambre) ==0) {
+        console.log(`Gatzu no tiene hambre`);
+    } else {
+        localStorage.getItem(gatzuS.hambre)
+    }
+}
+
+console.log(gatzuS);
 
 
 
